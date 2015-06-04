@@ -1,0 +1,12 @@
+{
+    "name": "epeay/starter-application",
+    "authors": [
+        {
+            "name": "Elliott Peay",
+            "email": "epeay@noreply.github.com"
+        }
+    ],
+    "require": {
+        "zendframework/zend-text":"2.5.1"
+    }
+}

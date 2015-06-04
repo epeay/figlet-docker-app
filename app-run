@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+cd www
+
+php -S 0.0.0.0:8000
+

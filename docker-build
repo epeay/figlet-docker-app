@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+# You must run this as root!
+
+# If any command returns non-zero, quit the script
+set -e
+
+docker build -t figlet-app ./
+
+
+
+
+
+
+
+
+
+
+
+
+
+
