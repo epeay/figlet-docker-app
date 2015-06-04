@@ -10,9 +10,10 @@ RUN php -r "readfile('https://getcomposer.org/installer');" \
   | php -- --filename=composer --install-dir=/usr/bin
 
 # Make our app user
-RUN useradd -m appuser
+RUN useradd appuser
 
-WORKDIR /home/appuser
+RUN mkdir /app
+WORKDIR /app
 
 ADD ./ ./
 
